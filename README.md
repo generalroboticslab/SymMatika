@@ -234,4 +234,14 @@ This work is supported by ARO under award W911NF2410405, DARPA FoundSci program 
 
 ## Citation
 If you found our paper or codebase to be helpful, please consider citing our work:
-[CITATION TO ADD]
+```
+@misc{scherk2025symmatikastructureawaresymbolicdiscovery,
+      title={SymMatika: Structure-Aware Symbolic Discovery}, 
+      author={Michael Scherk and Boyuan Chen},
+      year={2025},
+      eprint={2507.03110},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2507.03110}, 
+}
+```
