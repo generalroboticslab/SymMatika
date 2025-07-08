@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2b4e0e-dfb1-4c63-b499-098ae9525b5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SymMatika_Release.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evolution/motif_finder.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/evolution/motif_finder.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,10 +88,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/michaelscherk/Desktop/SymMatika/SymMatika_Engine",
+    "last_opened_file_path": "/Users/michaelscherk/Desktop/SymMatika_Release",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,12 +112,12 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.SymMatika">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="SymMatika" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SymMatika_Engine" TARGET_NAME="Backup___SymReg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SymMatika_Engine" RUN_TARGET_NAME="Backup___SymReg">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymMatika" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SymMatika_Engine" TARGET_NAME="Backup___SymReg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SymMatika_Engine" RUN_TARGET_NAME="Backup___SymReg">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -324,6 +328,7 @@
       <workItem from="1751941487024" duration="18000" />
       <workItem from="1751945057265" duration="115000" />
       <workItem from="1751945240401" duration="41000" />
+      <workItem from="1751994972020" duration="128000" />
     </task>
     <servers />
   </component>
