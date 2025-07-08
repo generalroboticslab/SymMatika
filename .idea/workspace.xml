@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="SymMatika_Engine" targetName="data_processing" />
+      <config projectName="SymMatika_Engine" targetName="Backup___SymReg" />
+      <config projectName="SymMatika_Engine" targetName="computation" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b2b4e0e-dfb1-4c63-b499-098ae9525b5f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/fitness_core/differentiation.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fitness_core/differentiation.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fitness_core/evaluate_tree.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fitness_core/evaluate_tree.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fitness_core/fitness.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/fitness_core/fitness.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/initialize_model.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/model.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tree_construction/build_candidates.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tree_construction/build_candidates.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///opt/homebrew/Cellar/llvm/20.1.3/include/c++/v1/__atomic/support/c11.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///opt/homebrew/include/eigen3/Eigen/src/Core/Block.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///opt/homebrew/opt/symengine/include/symengine/mp_class.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.4" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2seMmQNswWIGTgPryDMdZc8ZHrW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.Backup___SymReg.executor": "Run",
+    "CMake Application.SymMatika.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/michaelscherk/Desktop/SymMatika/SymMatika_Engine",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/symmatika" />
+      <recent name="$PROJECT_DIR$/tree_construction" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug/CMakeFiles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.SymMatika">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SymMatika" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SymMatika_Engine" TARGET_NAME="Backup___SymReg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SymMatika_Engine" RUN_TARGET_NAME="Backup___SymReg">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="computation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SymMatika_Engine" TARGET_NAME="computation" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data_processing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SymMatika_Engine" TARGET_NAME="data_processing" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.SymMatika" />
+      <item itemvalue="CMake Application.computation" />
+      <item itemvalue="CMake Application.data_processing" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b2b4e0e-dfb1-4c63-b499-098ae9525b5f" name="Changes" comment="" />
+      <created>1738811745049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738811745049</updated>
+      <workItem from="1738811746126" duration="5257000" />
+      <workItem from="1738898425476" duration="134567000" />
+      <workItem from="1739501846292" duration="13000" />
+      <workItem from="1739501865112" duration="43623000" />
+      <workItem from="1739829097423" duration="18000" />
+      <workItem from="1739833704542" duration="7150000" />
+      <workItem from="1739842422828" duration="56000" />
+      <workItem from="1739842482001" duration="5000" />
+      <workItem from="1739842490557" duration="5000" />
+      <workItem from="1739849287885" duration="1145000" />
+      <workItem from="1739854751078" duration="15062000" />
+      <workItem from="1739998054212" duration="86000" />
+      <workItem from="1739998199663" duration="664000" />
+      <workItem from="1740023024670" duration="185000" />
+      <workItem from="1740023287582" duration="341000" />
+      <workItem from="1740096843348" duration="4611000" />
+      <workItem from="1740117659941" duration="5288000" />
+      <workItem from="1740165782024" duration="267000" />
+      <workItem from="1740174203922" duration="39795000" />
+      <workItem from="1740352064170" duration="61052000" />
+      <workItem from="1740615373234" duration="13721000" />
+      <workItem from="1740696322407" duration="37180000" />
+      <workItem from="1740866839340" duration="12408000" />
+      <workItem from="1741031170872" duration="18848000" />
+      <workItem from="1741149341531" duration="2879000" />
+      <workItem from="1741402550414" duration="5447000" />
+      <workItem from="1741544128613" duration="529000" />
+      <workItem from="1741544665887" duration="12399000" />
+      <workItem from="1741579959781" duration="132100000" />
+      <workItem from="1742143842741" duration="51041000" />
+      <workItem from="1742260936340" duration="54676000" />
+      <workItem from="1742410061176" duration="1267000" />
+      <workItem from="1742414919990" duration="227000" />
+      <workItem from="1742419110530" duration="44006000" />
+      <workItem from="1742531737773" duration="44421000" />
+      <workItem from="1742706116916" duration="39557000" />
+      <workItem from="1743016405854" duration="6681000" />
+      <workItem from="1743037003769" duration="15000" />
+      <workItem from="1743087164813" duration="9136000" />
+      <workItem from="1743266385126" duration="24375000" />
+      <workItem from="1743462630558" duration="19766000" />
+      <workItem from="1743542281486" duration="11898000" />
+      <workItem from="1743935291873" duration="614000" />
+      <workItem from="1744088926052" duration="20594000" />
+      <workItem from="1744563210082" duration="6470000" />
+      <workItem from="1744570370060" duration="16861000" />
+      <workItem from="1744667316329" duration="2813000" />
+      <workItem from="1744674396334" duration="35910000" />
+      <workItem from="1744930914148" duration="9877000" />
+      <workItem from="1745278398973" duration="3987000" />
+      <workItem from="1745341634239" duration="19016000" />
+      <workItem from="1745375638511" duration="5925000" />
+      <workItem from="1745385571398" duration="5383000" />
+      <workItem from="1745607283997" duration="208000" />
+      <workItem from="1745635029083" duration="842000" />
+      <workItem from="1745796759199" duration="281000" />
+      <workItem from="1746387826716" duration="3212000" />
+      <workItem from="1746469132764" duration="10975000" />
+      <workItem from="1746492535098" duration="5000" />
+      <workItem from="1746565019415" duration="8478000" />
+      <workItem from="1746680977790" duration="162000" />
+      <workItem from="1746738469450" duration="9032000" />
+      <workItem from="1746806896741" duration="12737000" />
+      <workItem from="1746844543341" duration="4399000" />
+      <workItem from="1746994018785" duration="21597000" />
+      <workItem from="1747271216984" duration="2821000" />
+      <workItem from="1747336826756" duration="27000" />
+      <workItem from="1747678288266" duration="1931000" />
+      <workItem from="1747848557881" duration="7407000" />
+      <workItem from="1748115857925" duration="224000" />
+      <workItem from="1748368982410" duration="2288000" />
+      <workItem from="1748969600211" duration="9066000" />
+      <workItem from="1749152815541" duration="1000" />
+      <workItem from="1749152830712" duration="2403000" />
+      <workItem from="1749156085867" duration="13036000" />
+      <workItem from="1749243117312" duration="10074000" />
+      <workItem from="1749317525070" duration="14813000" />
+      <workItem from="1749342684924" duration="1677000" />
+      <workItem from="1749355516726" duration="4931000" />
+      <workItem from="1749360465158" duration="2763000" />
+      <workItem from="1749403488312" duration="2611000" />
+      <workItem from="1749416538775" duration="187000" />
+      <workItem from="1749416738133" duration="829000" />
+      <workItem from="1749421836353" duration="75000" />
+      <workItem from="1749421993639" duration="13000" />
+      <workItem from="1749422015799" duration="38000" />
+      <workItem from="1749422063405" duration="4000" />
+      <workItem from="1749422072214" duration="40000" />
+      <workItem from="1749422116034" duration="68000" />
+      <workItem from="1749422216556" duration="42000" />
+      <workItem from="1749422725802" duration="4000" />
+      <workItem from="1749422731434" duration="12000" />
+      <workItem from="1749423171924" duration="689000" />
+      <workItem from="1749423865391" duration="3000" />
+      <workItem from="1749424030221" duration="107000" />
+      <workItem from="1749425414485" duration="975000" />
+      <workItem from="1749431917066" duration="3240000" />
+      <workItem from="1749435222798" duration="19000" />
+      <workItem from="1749435299964" duration="6000" />
+      <workItem from="1749440585172" duration="1751000" />
+      <workItem from="1749442813996" duration="16000" />
+      <workItem from="1749487032495" duration="506000" />
+      <workItem from="1749487691027" duration="90000" />
+      <workItem from="1749487792757" duration="97000" />
+      <workItem from="1749488062264" duration="198000" />
+      <workItem from="1749488488966" duration="207000" />
+      <workItem from="1749489613246" duration="2079000" />
+      <workItem from="1749503595558" duration="11351000" />
+      <workItem from="1749521151533" duration="2554000" />
+      <workItem from="1749524994018" duration="134000" />
+      <workItem from="1749560139969" duration="7339000" />
+      <workItem from="1749568087891" duration="684000" />
+      <workItem from="1749570606552" duration="5000" />
+      <workItem from="1749574159358" duration="20000" />
+      <workItem from="1749575922508" duration="7000" />
+      <workItem from="1749591506781" duration="6000" />
+      <workItem from="1749591533976" duration="1372000" />
+      <workItem from="1749832322953" duration="2282000" />
+      <workItem from="1749937428100" duration="406000" />
+      <workItem from="1749940350209" duration="17000" />
+      <workItem from="1749940404740" duration="5000" />
+      <workItem from="1749940432354" duration="44000" />
+      <workItem from="1749940884002" duration="55000" />
+      <workItem from="1749941652275" duration="12000" />
+      <workItem from="1749957284359" duration="1249000" />
+      <workItem from="1750010123014" duration="1175000" />
+      <workItem from="1750011323233" duration="255000" />
+      <workItem from="1750011920867" duration="33000" />
+      <workItem from="1750011998619" duration="879000" />
+      <workItem from="1750013133961" duration="24000" />
+      <workItem from="1750013646495" duration="240000" />
+      <workItem from="1750014082488" duration="89000" />
+      <workItem from="1750026300583" duration="52000" />
+      <workItem from="1750026371722" duration="77000" />
+      <workItem from="1750026897860" duration="2723000" />
+      <workItem from="1750036118348" duration="2210000" />
+      <workItem from="1750178919733" duration="1828000" />
+      <workItem from="1750524430371" duration="12933000" />
+      <workItem from="1750557147780" duration="32000" />
+      <workItem from="1750557181453" duration="506000" />
+      <workItem from="1750557691641" duration="121000" />
+      <workItem from="1750559775300" duration="3782000" />
+      <workItem from="1750611961871" duration="619000" />
+      <workItem from="1750613818779" duration="882000" />
+      <workItem from="1750618413063" duration="663000" />
+      <workItem from="1750625589263" duration="234000" />
+      <workItem from="1750626516341" duration="2260000" />
+      <workItem from="1750640333422" duration="1514000" />
+      <workItem from="1750644394287" duration="2336000" />
+      <workItem from="1750706154224" duration="1475000" />
+      <workItem from="1750711713178" duration="6521000" />
+      <workItem from="1750722437004" duration="1880000" />
+      <workItem from="1750724394021" duration="1756000" />
+      <workItem from="1750726734776" duration="74000" />
+      <workItem from="1750727187465" duration="189000" />
+      <workItem from="1750728143960" duration="296000" />
+      <workItem from="1750789566042" duration="1373000" />
+      <workItem from="1750790977976" duration="277000" />
+      <workItem from="1750791286356" duration="624000" />
+      <workItem from="1750792208915" duration="24000" />
+      <workItem from="1750792243924" duration="93000" />
+      <workItem from="1750902637135" duration="8504000" />
+      <workItem from="1751048387662" duration="361000" />
+      <workItem from="1751052131748" duration="50000" />
+      <workItem from="1751164427059" duration="3461000" />
+      <workItem from="1751223907005" duration="326000" />
+      <workItem from="1751224876670" duration="1360000" />
+      <workItem from="1751421881116" duration="1312000" />
+      <workItem from="1751423985153" duration="48000" />
+      <workItem from="1751424110432" duration="5000" />
+      <workItem from="1751424205696" duration="6000" />
+      <workItem from="1751424256299" duration="21000" />
+      <workItem from="1751424811132" duration="6000" />
+      <workItem from="1751425455273" duration="29000" />
+      <workItem from="1751425739142" duration="24000" />
+      <workItem from="1751426066356" duration="12000" />
+      <workItem from="1751427354346" duration="81000" />
+      <workItem from="1751506584624" duration="2143000" />
+      <workItem from="1751941362476" duration="120000" />
+      <workItem from="1751941487024" duration="18000" />
+      <workItem from="1751945057265" duration="115000" />
+      <workItem from="1751945240401" duration="41000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
