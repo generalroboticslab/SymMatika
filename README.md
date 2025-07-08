@@ -9,7 +9,7 @@ Duke University
     <img src="figures/ModelOverview.jpg" width="900"  /> 
 </p>
 
-[Website] | [Paper] | [Video]
+[Website](http://www.generalroboticslab.com/blogs/blog/2025-07-04-symmatika/index.html) | [Paper](https://arxiv.org/abs/2507.03110) | [Video](https://www.youtube.com/watch?v=rVUUj_WSLWo&t=5s)
 
 **SymMatika** discovers symbolic expressions from data, which manifest as either *explicit* mappings like `y=f(x₁, x₂, ...)` or implicit physical invariants. We provide our full codebase here for running-with-code use (including an executable terminal option to run directly from the terminal without any coding) and a user-friendly GUI. Both installations and use instructions are available on this page.
 
