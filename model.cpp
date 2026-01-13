@@ -13,6 +13,10 @@ void Model::run() {
     const int MIGRATION_INTERVAL = 20;
     const double MIGRATION_RATE = 0.02;
 
+    if (mult_dist) {
+        for (auto &d : dataset.data) d = d.rightCols(d.cols()-1);
+    }
+
     // termination condition
     double epsilon = dataset.is_supervised() ? -1e-6 : -0.025;
 
@@ -256,6 +260,8 @@ void easy_run() {
     char system_char;
     bool system_type;
     std::vector<std::string> variables;
+    char relevant_char;
+    bool use_all_vars;
     std::vector<bool> choose_ops;
     int depth;
 
@@ -302,6 +308,22 @@ void easy_run() {
         }
     }
 
+    // use all variables
+    do {
+        std::cout << "\nAre all input variables relevant? (y/n): ";
+        std::cin >> relevant_char;
+    } while (relevant_char != std::tolower('y') && relevant_char != std::tolower('n'));
+    use_all_vars = relevant_char=='y';
+
+    // multiple distributions
+    char mult_char;
+    bool mult_dist;
+    do {
+        std::cout << "\nAre there multiple data distributions? (y/n): ";
+        std::cin >> mult_char;
+    } while (mult_char != std::tolower('y') && mult_char != std::tolower('n'));
+    mult_dist = mult_char=='y';
+
     // allowed operators
     const std::vector<std::string> op_names = {
         "add", "sub", "mul", "div", "pow",
@@ -323,6 +345,7 @@ void easy_run() {
         std::cout << "Select any option 1-4: ";
         std::cin >> select_idx;
     } while (select_idx != 1 && select_idx != 2 && select_idx != 3 && select_idx != 4);
+
     switch (select_idx) {
         case 1: {
             for (int i=5; i<copy_ops.size(); i++) copy_ops[i] = false;
@@ -388,7 +411,7 @@ void easy_run() {
             std::cout << "\nTarget variable: " << variables[variables.size()-1];
         } else {
             std::cout << "Input variables: ";
-            for (int i=0; i<variables.size()-1; i++) std::cout << variables[i] << " ";
+            for (int i=0; i<variables.size(); i++) std::cout << variables[i] << " ";
         }
         std::cout << "\n\nOperators:";
         for (int i=0; i<copy_ops.size(); i++) {
@@ -403,7 +426,10 @@ void easy_run() {
     if (confirm == 'n') goto system_start;
     std::cout << "\n\n";
 
-    DataSet data = DataSet(file_name, system_type, variables);
-    Model symMatika = Model(data, 10000, depth, choose_ops);
+    DataSet data = DataSet(file_name, system_type, variables, use_all_vars);
+    if (mult_dist) {
+        for (auto &d : data.data) d = d.rightCols(d.cols()-1);
+    }
+    Model symMatika = Model(data, 10000, depth, choose_ops, use_all_vars);
     symMatika.run();
 }

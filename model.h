@@ -11,6 +11,8 @@ private:
     const int initial_pop;
     const int max_depth;
     std::vector<bool> allowed_ops;
+    bool all_vars_relevant;
+    bool mult_dist;
 
     std::vector<FFPair> final_candidates;
     size_t gen_count;
@@ -45,13 +47,17 @@ public:
      * Each element of allowed_ops corresponds to enabling a certain operator
      */
 
-    Model(const DataSet &dataset_) : dataset(dataset_), initial_pop(10000), max_depth(5), allowed_ops(allowed_starting_weights) {}
+    Model(const DataSet &dataset_) : dataset(dataset_), initial_pop(10000), max_depth(5), allowed_ops(allowed_starting_weights), all_vars_relevant(true), mult_dist(false) {}
 
-    Model(const DataSet &dataset_, int pop_size_) : dataset(dataset_), initial_pop(pop_size_), max_depth(5), allowed_ops(allowed_starting_weights) {}
+    Model(const DataSet &dataset_, int pop_size_) : dataset(dataset_), initial_pop(pop_size_), max_depth(5), allowed_ops(allowed_starting_weights), all_vars_relevant(true), mult_dist(false) {}
 
-    Model(const DataSet &dataset_, int pop_size_, int max_depth_) : dataset(dataset_), initial_pop(pop_size_), max_depth(adjust_depth(max_depth_)), allowed_ops(allowed_starting_weights) {}
+    Model(const DataSet &dataset_, int pop_size_, int max_depth_) : dataset(dataset_), initial_pop(pop_size_), max_depth(adjust_depth(max_depth_)), allowed_ops(allowed_starting_weights), all_vars_relevant(true), mult_dist(false) {}
 
-    Model(const DataSet &dataset_, int pop_size_, int max_depth_, std::vector<bool> allowed_) : dataset(dataset_), initial_pop(pop_size_), max_depth(adjust_depth(max_depth_)), allowed_ops(allowed_) {}
+    Model(const DataSet &dataset_, int pop_size_, int max_depth_, std::vector<bool> allowed_) : dataset(dataset_), initial_pop(pop_size_), max_depth(adjust_depth(max_depth_)), allowed_ops(allowed_), all_vars_relevant(true), mult_dist(false) {}
+
+    Model(const DataSet &dataset_, int pop_size_, int max_depth_, std::vector<bool> allowed_, bool all_relevant_) : dataset(dataset_), initial_pop(pop_size_), max_depth(adjust_depth(max_depth_)), allowed_ops(allowed_), all_vars_relevant(all_relevant_), mult_dist(false) {}
+
+    Model(const DataSet &dataset_, int pop_size_, int max_depth_, std::vector<bool> allowed_, bool all_relevant_, bool mult_dist_) : dataset(dataset_), initial_pop(pop_size_), max_depth(adjust_depth(max_depth_)), allowed_ops(allowed_), all_vars_relevant(all_relevant_), mult_dist(mult_dist_) {}
 
     void run();
 
