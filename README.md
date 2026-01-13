@@ -185,11 +185,13 @@ DataSet data = DataSet(fileName, systemType, variableList);
 - `variableList` = string vector of input variable names, and a target variable as the last element in the vector if *explicit* `systemType`
 
 ```cpp
-Model symMatika = Model(data, popSize, maxDepth, allowedOps);
+Model symMatika = Model(data, popSize, maxDepth, allowedOps, allRelevant, multDist);
 ```
 - `popSize` = initial starting populations for each island population (recommended 10,000)
 - `maxDepth` = maximum depth of binary expression trees; in range of 1-5 in ascending candidate expression complexity
 - `allowedOps` = vector of boolean values for each binary and unary operator, True for enable and False for disable (by default, all operators are enabled)
+- `allRelevant` = if all input variables are relevant and will be included in the symbolic expression (typically this is yes)
+- `multDist` = if samples are collected from different data distributions
 > 💡 **Tip:** To ensure fast runtimes, we recommend using datasets with < 10,000 samples, as runtimes scale massively with large datasets. This is not a requirement, but merely a suggestion. For discovering implicit relations, we can only support discovery in physical systems of up to four variables.
 
 ### Terminal
