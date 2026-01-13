@@ -153,7 +153,7 @@ To run the model with code, navigate to the `main.cpp` file. Once there, you can
 int main() {
     // Explicit dataset
     DataSet data = DataSet(
-        "/Users/generaroboticslab/Desktop/SymMatika/example_data/sine_data.csv", // path to CSV file
+        "/Users/generalroboticslab/Desktop/SymMatika/example_data/sine_data.csv", // path to CSV file
         true,                                                                    // true = explicit mapping (y = f(x))
         {"x", "y"}                                                               // input: x, target: y
     );
@@ -161,9 +161,11 @@ int main() {
     // Run symbolic regression model
     Model symMatika = Model(
         data,
-        10000,                               // population size
-        3,                                   // max tree depth
-        {true, true, true, true, true, true} // enable all operations
+        10000,                                // population size
+        3,                                    // max tree depth
+        {true, true, true, true, true, true}, // enable all operations
+        true,                                 // all variables are relevant
+        true                                  // are there multiple data distributions?
     );
 
     symMatika.run();
