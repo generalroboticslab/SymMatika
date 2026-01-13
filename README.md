@@ -136,6 +136,8 @@ We outline the following instructions for valid dataset files:
 - when searching for explicit mappings (i.e. some *f* s.t. *f(x_1, ... , x_n) = y* for input variables *x_1, ... , x_n* and target variable *y*), the last column must be the target variable and the previous columns are inputs
 - when searching for implicit relations (i.e. no known target variable, common in discovering physical invariants), the first column is the trial number (i.e. 1 or 2), the second column is time, and the subsequent columns correspond to variables
 
+> 💡 **Note:** When multiple data distributions are present, include index number for each sample in the leftmost column
+
 To ensure fast runtimes, we recommend using datasets with < 10,000 samples, as runtimes scale massively with large datasets. This is not a requirement, but merely a suggestion. For discovering implicit relations, we can only support discovery in physical systems of up to four variables.
 
 ## Running
@@ -165,7 +167,7 @@ int main() {
         3,                                    // max tree depth
         {true, true, true, true, true, true}, // enable all operations
         true,                                 // all variables are relevant
-        true                                  // are there multiple data distributions?
+        false                                 // are there multiple data distributions?
     );
 
     symMatika.run();
