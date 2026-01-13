@@ -9,7 +9,7 @@ Duke University
     <img src="figures/ModelOverview.jpg" width="900"  /> 
 </p>
 
-[Website] | [Paper] | [Video]
+[Website](http://www.generalroboticslab.com/blogs/blog/2025-07-04-symmatika/index.html) | [Paper](https://arxiv.org/abs/2507.03110) | [Video](https://www.youtube.com/watch?v=rVUUj_WSLWo&t=5s)
 
 **SymMatika** discovers symbolic expressions from data, which manifest as either *explicit* mappings like `y=f(x₁, x₂, ...)` or implicit physical invariants. We provide our full codebase here for running-with-code use (including an executable terminal option to run directly from the terminal without any coding) and a user-friendly GUI. Both installations and use instructions are available on this page.
 
@@ -234,4 +234,14 @@ This work is supported by ARO under award W911NF2410405, DARPA FoundSci program 
 
 ## Citation
 If you found our paper or codebase to be helpful, please consider citing our work:
-[CITATION TO ADD]
+```
+@misc{scherk2025symmatikastructureawaresymbolicdiscovery,
+      title={SymMatika: Structure-Aware Symbolic Discovery}, 
+      author={Michael Scherk and Boyuan Chen},
+      year={2025},
+      eprint={2507.03110},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2507.03110}, 
+}
+```
